@@ -1,0 +1,7 @@
+<ul>
+{% for gasto in gastos %}
+<li> {{ gasto.fecha|date }}--{{gasto.monto}}--{{gasto.descripcion}}
+</li>
+
+{% endfor %}
+</ul>
